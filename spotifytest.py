@@ -7,4 +7,5 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 name = ["Micheal Jackson","pitbull","Christina","Elvis Presley"]
 result = sp.search(name) 
-result['tracks']['items'][1]['artists']
+result['tracks']['items'][1]['artists'] 
+print("hello")
