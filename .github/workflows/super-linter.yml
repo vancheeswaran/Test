@@ -28,4 +28,3 @@ jobs:
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CREATE_LOG_FILE: true
-          LOG_FILE: Test.log
