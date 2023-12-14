@@ -1,0 +1,10 @@
+name: Do things every 5 minutes
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+jobs:
+  run-job:
+    runs-on: 'ubuntu-latest'
+    steps:
+      - name: scheduled run
+        run : curl -X POST -d "username=TestUser&password=Test1234*" https://feedamalgamator.azurewebsites.net/auth/login
